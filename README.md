@@ -1,4 +1,5 @@
 This is forked from pjreddie/darknet
+
 Simple Realtime Yolo detection with geolocation enabled by using gpsd (gps data from phone to pc)
 Installation (you must enabled gpu and opencv)
 clone this repository and go to dir
