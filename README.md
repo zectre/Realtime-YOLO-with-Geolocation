@@ -8,4 +8,5 @@ for data, cfg, weights input and classes you wish to predict you can change it o
 you can change your classname output on ./detectout.sh
 
 use./detectclass.sh for realtime detection from webcam
-use ./detectout.sh to create detected object output with lattitude and longitude (txt format)
+
+then use ./detectout.sh to create detected object output with lattitude and longitude (txt format)
