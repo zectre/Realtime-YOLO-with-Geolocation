@@ -1,8 +1,8 @@
-![Darknet Logo](http://pjreddie.com/media/files/darknet-black-small.png)
+This is forked from pjreddie/darknet
+Simple Realtime Yolo detection with geolocation enabled by using gpsd
 
-# Darknet #
-Darknet is an open source neural network framework written in C and CUDA. It is fast, easy to install, and supports CPU and GPU computation.
+for data, cfg, weights input and classes you wish to predict you can change it on detectclass.sh
+you can change your classname output on ./detectout.sh
 
-For more information see the [Darknet project website](http://pjreddie.com/darknet).
-
-For questions or issues please use the [Google Group](https://groups.google.com/forum/#!forum/darknet).
+use./detectclass.sh for realtime detection from webcam
+use ./detectout.sh to create detected object output with lattitude and longitude (txt format)
